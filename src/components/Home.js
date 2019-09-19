@@ -17,7 +17,7 @@ export class Home extends Component {
         </section>
         <section>
           <div>
-            <h1>MAP GOES HERE!!!</h1>
+            <h3>MAP GOES HERE!!!</h3>
             {/* API Call */}
           </div>
         </section>
