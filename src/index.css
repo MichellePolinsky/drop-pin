@@ -37,19 +37,21 @@ header {
   max-height: 100%;
 }
 
-.left_content {
+/* .left_content {
   display: flex;
   justify-content: flex-start;
-}
+} */
 
 .right_content {
   display: flex;
   justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .map_container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
 .img_container {
