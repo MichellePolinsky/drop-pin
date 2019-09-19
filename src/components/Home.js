@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import Header from './Header'
 
 export class Home extends Component {
   render() {
     return (
       <>
+        <Header />
         <section class="left-content">
           <section class="map_container">
             <div class="location_buttons">
