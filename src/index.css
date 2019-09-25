@@ -34,27 +34,39 @@ header {
   max-height: 100%;
 }
 
-/* .left_content {
-  display: flex;
-  justify-content: flex-start;
-} */
-
-.right_content {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-
-.map_container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-}
-
-.img_container {
+main {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
+  align-content: flex-end;
 }
+
+/* .left_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+} */
+
+/* .right_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+} */
+/* .map_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+} */
+/* 
+.img_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+} */
 
 /* @media only screen and (max-width: 600px) {
   padding-right: 1rem;
