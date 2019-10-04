@@ -9,6 +9,7 @@ class App extends Component {
   render() {
     return (
       <Router>
+        <Header />
         <Switch>
           <Route exact path="/" component={Home}></Route>
           <Route exact path="/Results" component={Results}></Route>
